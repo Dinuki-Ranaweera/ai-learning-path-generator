@@ -1,0 +1,22 @@
+# AI Learning Path Generator
+
+## What this is
+A full stack web app that generates personalized week-by-week 
+learning roadmaps for any skill using AI.
+
+## Stack
+- Frontend: React, Tailwind CSS
+- Backend: Node.js, Express
+- AI: Groq API (LLaMA 3.3 70B)
+- Deploy: Netlify
+
+## Folder structure
+- /client — React frontend
+- /server — Node/Express backend
+
+## Rules
+- Always use async/await, never .then()
+- Never use var, use const and let only
+- Keep React components under 150 lines
+- Always handle loading and error states
+- Never hardcode API keys, always use process.env
